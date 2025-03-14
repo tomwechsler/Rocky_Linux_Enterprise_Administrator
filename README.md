@@ -1,4 +1,4 @@
-<img src="/Images/Rocky.png" alt="Rocky Linux Enterprise Administrator" width="820" height="400">
+<img src="/Images/Rocky.png" alt="Rocky Linux Enterprise Administrator" width="410" height="200">
 
 # Rocky Linux Enterprise Administrator
 Everything about Rocky Linux Enterprise Administrator (RLEA)!
