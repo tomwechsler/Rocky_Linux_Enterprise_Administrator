@@ -9,6 +9,7 @@ man 5 systemd.timer
 #List all installed timer units
 systemctl list-unit-files --type=timer
 
+#List all active timers and their next run time
 systemctl list-timers
 
 #Check for available updates using 'yum'
