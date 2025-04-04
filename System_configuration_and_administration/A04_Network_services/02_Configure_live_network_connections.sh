@@ -12,10 +12,10 @@ route
 #Display the IP routing table
 ip route
 
-#Display the link status of the network interface enp0s8
+#Display the link status of the network interface enp0s8 (maybe works not an virtual network interfaces)
 sudo mii-tool enp0s8
 
-#Display detailed information about the network interface enp0s8
+#Display detailed information about the network interface enp0s8 (maybe works not an virtual network interfaces)
 sudo ethtool enp0s8
 
 #Display the ARP table
