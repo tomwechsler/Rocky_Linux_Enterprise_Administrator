@@ -41,3 +41,8 @@ sudo nmcli connection up athome
 
 #Display /etc/resolv.conf
 cat /etc/resolv.conf
+
+#Default values of DNS priority parameters
+#NetworkManager uses the following default values for connections:
+#50 for VPN connections
+#100 for other connections 
