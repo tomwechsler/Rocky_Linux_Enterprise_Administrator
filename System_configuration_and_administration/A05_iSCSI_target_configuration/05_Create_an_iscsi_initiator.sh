@@ -1,5 +1,11 @@
 #Working on Rocky02
 
+#Enable and start the iscsi service
+sudo systemctl enable --now iscsi
+
+#Check the status of the iscsi service
+sudo systemctl status iscsi
+
 #Open the following file
 sudo vim /etc/iscsi/initiatorname.iscsi
 
