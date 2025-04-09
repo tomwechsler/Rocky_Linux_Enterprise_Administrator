@@ -1,0 +1,19 @@
+dn: uid=rhuser,ou=People,dc=example,dc=com
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+cn: rhuser
+sn: Linux
+userPassword: {SSHA}xxxxxxxxxxxxxxxxx
+loginShell: /bin/bash
+uidNumber: 2000
+gidNumber: 2000
+homeDirectory: /home/rhuser
+
+dn: cn=rhuser,ou=Group,dc=example,dc=com
+objectClass: posixGroup
+cn: rhuser
+gidNumber: 2000
+memberUid: rhuser
+
+

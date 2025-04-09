@@ -1,0 +1,9 @@
+dn: cn=config
+changetype: modify
+replace: olcTLSCertificateFile
+olcTLSCertificateFile: /etc/openldap/certs/server.crt
+-
+replace: olcTLSCertificateKeyFile
+olcTLSCertificateKeyFile: /etc/openldap/certs/server.key
+
+
