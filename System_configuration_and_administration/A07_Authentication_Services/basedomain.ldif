@@ -2,7 +2,7 @@ dn: dc=example,dc=com
 objectClass: top
 objectClass: dcObject
 objectclass: organization
-o: Local Net
+o: Example Net
 dc: example
 
 dn: cn=Manager,dc=example,dc=com
