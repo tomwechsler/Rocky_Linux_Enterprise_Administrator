@@ -40,6 +40,9 @@ sudo cp /home/tom/server.pem /etc/openldap/certs/
 #Restart the SSSD and Oddjobd services
 sudo systemctl restart sssd oddjobd
 
+#Check the connection to the LDAP server
+openssl s_client -connect secure.example.com:636
+
 #Verify the LDAP user 'rhuser' in the local system
 sudo getent passwd rhuser
 
@@ -50,4 +53,4 @@ sudo ldapsearch -x ldaps://secure.example.com cn=rhuser -b "dc=example,dc=com"
 sudo ldapsearch -d1 -x ldaps://secure.example.com cn=rhuser -b "dc=example,dc=com"
 
 #Switch to the LDAP user 'rhuser'
-sudo -i rhuser
+su -l rhuser

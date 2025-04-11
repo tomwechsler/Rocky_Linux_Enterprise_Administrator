@@ -29,8 +29,8 @@ sed -Ef my.sed /etc/chrony.conf
 #Open the /etc/chrony.conf file in vim
 !v
 
-#Delete the first line that starts with "pool" and contains "rhel"
-/^pool .*rhel/d
+#Delete the first line that starts with "pool" and contains "rocky"
+/^pool .*rocky/d
 
 #Use the my.sed file to edit the /etc/chrony.conf file in place
 sed -i -Ef my.sed /etc/chrony.conf
