@@ -4,10 +4,10 @@
 ps -AZ | grep mariadb
 
 #List SELinux security contexts for MariaDB binaries
-ls -Z /usr/libexec/maria*
+sudo ls -Z /usr/libexec/maria*
 
 #List SELinux security contexts for the MySQL data directory
-ls -Z /var/lib/mysql
+sudo ls -Z /var/lib/mysql
 
 #If you want to use a custom database directory, you need to set the SELinux context for that directory
 #Add a new SELinux file context for the custom database directory

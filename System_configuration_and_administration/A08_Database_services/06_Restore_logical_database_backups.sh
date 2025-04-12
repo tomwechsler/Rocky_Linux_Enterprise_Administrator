@@ -19,7 +19,7 @@ show databases;
 exit
 
 #Restore the 'linuxdevs' database from the backup file
-mysql -u root -p linuxdevs < /home/tom/dbbackup-linuxdevs.sql
+mysql -u root -p < /home/tom/dbbackup-linuxdevs.sql
 
 #Log in to the MySQL server as the root user
 mysql -u root -p

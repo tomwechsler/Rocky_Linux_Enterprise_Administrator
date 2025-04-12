@@ -16,13 +16,13 @@ ls
 cat /home/tom/dbbackup-all.sql
 
 #Perform a logical backup of the 'linuxdevs' database and save it to a file
-mysqldump -u root -p --database linuxdevs > /home/tom/dbbackup-linuxdevs.sql
+mysqldump -u root -p --databases linuxdevs > /home/tom/dbbackup-linuxdevs.sql
 
 #List the contents of the current directory to verify the backup file
 ls
 
 #Perform a logical backup of the 'linuxdevs' database and the 'developers' table and save it to a file
-mysqldump -u root -p --database linuxdevs developers > /home/tom/dbbackup-linuxdevs-developers.sql
+mysqldump -u root -p linuxdevs developers > /home/tom/dbbackup-linuxdevs-developers.sql
 
 #List the contents of the current directory to verify the backup file
 ls
