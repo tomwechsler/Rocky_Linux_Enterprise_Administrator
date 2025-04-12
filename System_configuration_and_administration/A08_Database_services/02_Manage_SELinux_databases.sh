@@ -4,7 +4,7 @@
 ps -AZ | grep mariadb
 
 #List SELinux security contexts for MariaDB binaries
-ls -Z /usr/libexec/mariadb
+ls -Z /usr/libexec/maria*
 
 #List SELinux security contexts for the MySQL data directory
 ls -Z /var/lib/mysql
