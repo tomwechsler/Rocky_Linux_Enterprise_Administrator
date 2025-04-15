@@ -3,7 +3,7 @@
 #Install the DNS server packages
 sudo dnf install -y bind bind-utils
 
-#List the content of the installed packages
+#List the content of the installed packages and dependencies
 dnf list installed | grep bind
 
 #Enable and start the DNS server (named)
