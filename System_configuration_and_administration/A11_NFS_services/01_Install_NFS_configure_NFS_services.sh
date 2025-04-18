@@ -4,13 +4,13 @@
 sudo dnf install -y nfs-utils
 
 #List the contents of the installed NFS utilities package
-rpm -ql | grep nfs-utils
+rpm -ql nfs-utils
 
 #Install the NFS ACL tools package
 sudo dnf install -y nfs4-acl-tools
 
 #List the contents of the installed NFS ACL tools package
-rpm -ql | grep nfs4-acl-tools
+rpm -ql nfs4-acl-tools
 
 #Switch to Rocky02
 

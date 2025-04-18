@@ -21,3 +21,9 @@ ls /home/usermount
 #Edit the fstab file to make the NFS mount persistent across reboots
 vim /etc/fstab
 #rocky01:/home/usershare /home/usermount nfs _netdev 0 0
+
+#Reload the systemd daemon to apply changes
+sudo systemctl daemon-reload
+
+#Mount all filesystems in fstab
+sudo mount -a
