@@ -1,6 +1,6 @@
 #Working on Rocky03
 
-#Cretae a new directory for the secure virtual host
+#Create a new directory for the secure virtual host
 sudo mkdir /var/www/html/secure
 
 #Edit the ssl.conf file to configure the secure virtual host
@@ -33,6 +33,9 @@ sudo vim /etc/hosts
 
 #Test connectivity to the secure virtual host
 ping secure.example.com
+
+#Install the epel-release package for additional repositories
+sudo dnf install epel-release -y
 
 #Install the w3m package for web testing
 sudo dnf install w3m -y
