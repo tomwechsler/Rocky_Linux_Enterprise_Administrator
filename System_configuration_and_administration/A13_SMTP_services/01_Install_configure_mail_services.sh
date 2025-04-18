@@ -34,7 +34,7 @@ sudo useradd -m -s /bin/bash bob
 sudo passwd bob
 
 #Send a test email to the user 'tom' on rocky02
-echo "Test email from tom" | mail -s "Test email" bob@rocky02.example.com
+echo "Test email from tom" | mail -s "Test email" bob
 
 #Open the mail client to check for new emails
 mail
