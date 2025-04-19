@@ -8,6 +8,7 @@ sudo vim /etc/postfix/main.cf
 #Add or modify the following lines:
 #myhostname = rocky03.example.com
 #mydomain = example.com
+#myorigin = $mydomain
 #inet_interfaces = localhost
 #mydestination = 
 #relayhost = rocky02.example.com
