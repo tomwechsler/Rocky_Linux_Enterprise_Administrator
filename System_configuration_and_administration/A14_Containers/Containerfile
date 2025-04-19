@@ -1,0 +1,6 @@
+FROM registry.access.redhat.com/ubi9/ubi-init
+RUN dnf -y install httpd; dnf clean all; systemctl enable httpd
+RUN echo "Sucessful Web Server Test" > /var/www/html/index.html
+RUN mkdir /etc/systemd/system/httpd.service.d/; echo -e '[Service]\nRestart=always' > /etc/systemd/system/httpd.service.d/httpd.conf
+EXPOSE 80
+CMD ["/sbin/init"]
