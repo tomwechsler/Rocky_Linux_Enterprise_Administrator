@@ -4,7 +4,7 @@
 
 | Sections | Section description             |
 |-----|-------------------------------------------|
-| A01 | Setup a test environment |
+| A01 | Setup a test environment (Using KVM)|
 | A02 | Statistics of the systems |
 | A03 | System configurations |
 | A04 | Network services |
