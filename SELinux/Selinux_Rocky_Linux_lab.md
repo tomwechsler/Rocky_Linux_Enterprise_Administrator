@@ -227,4 +227,5 @@ Consult the following resources for additional information on this topic. While 
 
 - [Graphical Guide to Policies](https://opensource.com/business/13/11/selinux-policy-guide)
 - [Red Hat SELinux](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/8/html/using_selinux/getting-started-with-selinux_using-selinux)
+- [SELinux User's and Administrator's Guide](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/7/html/selinux_users_and_administrators_guide/index)
 - [Rocky Linux SELinux Wiki](https://docs.rockylinux.org/guides/security/learning_selinux/)
