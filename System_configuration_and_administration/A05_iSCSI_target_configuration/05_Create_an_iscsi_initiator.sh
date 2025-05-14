@@ -23,7 +23,7 @@ node.session.auth.username = client1
 node.session.auth.password = password
 
 #Uncomment the following line:
-node.session.auth.type = CHAP
+node.session.auth.authmethod = CHAP
 
 #Save and exit the file
 
