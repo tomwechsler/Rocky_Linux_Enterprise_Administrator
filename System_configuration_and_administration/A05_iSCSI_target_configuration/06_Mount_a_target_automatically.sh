@@ -1,7 +1,7 @@
 #Working on Rocky02
 
 #Display iSCSI devices
-sudo lsblk --iscsi
+sudo lsblk --scsi
 
 #Partition the iSCSI device using gdisk
 sudo gdisk /dev/sdd
